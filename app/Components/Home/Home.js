@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div id='home'>
-      <div className='w-full min-h-screen bg-[url("/slider-bg.jpg")] bg-center bg-cover flex justify-center items-center relative'>
+      <div className='w-full overflow-hidden min-h-screen bg-[url("/slider-bg.jpg")] bg-center bg-cover flex justify-center items-center relative'>
         {/* Dark Overlay */}
         <div className='absolute inset-0 bg-black opacity-50'></div>
 
